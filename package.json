@@ -1,0 +1,29 @@
+{
+    "name": "@macrox-studio/react-native-template",
+    "version": "0.0.1",
+    "description": "Clean and minimalist React Native template for a quick start with TypeScript for MACROX projects",
+    "scripts": {
+        "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
+    },
+    "files": [
+        "template",
+        "template.config.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/macrox-studio/react-native-template.git"
+    },
+    "keywords": [
+        "react-native",
+        "typescript",
+        "jest",
+        "template",
+        "boilerplate"
+    ],
+    "author": "Alexander Garin <garin1221@yandex.ru>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/macrox-studio/react-native-template/issues"
+    },
+    "homepage": "https://github.com/macrox-studio/react-native-template#readme"
+}

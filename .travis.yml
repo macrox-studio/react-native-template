@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 'node'
+deploy:
+  on:
+    tags: true
+  provider: npm
+  email: 'garin1221@yandex.ru'
+  api_key: '${NPM_TOKEN}'
+  skip_cleanup: true

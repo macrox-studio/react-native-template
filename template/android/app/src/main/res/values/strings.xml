@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MACROX</string>
+    <string name="default_notification_channel_id">MACROX</string>
+</resources>
