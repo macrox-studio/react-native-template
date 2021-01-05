@@ -1,9 +1,8 @@
 package com.macrox;
 
-import android.annotation.SuppressLint;
+import com.macrox.R;
 import android.view.View;
-
-import ru.insight.people.R;
+import android.annotation.SuppressLint;
 import com.reactnativenavigation.NavigationActivity;
 
 public class MainActivity extends NavigationActivity {

@@ -2,11 +2,6 @@ package com.macrox;
 
 import android.content.Context;
 
-// import com.yandex.metrica.YandexMetrica;
-// import com.actionsheet.ActionSheetPackage;
-// import com.yandex.metrica.YandexMetricaConfig;
-// import com.yandex.metrica.push.YandexMetricaPush;
-
 import com.facebook.react.ReactPackage;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactNativeHost;
@@ -30,7 +25,7 @@ public class MainApplication extends NavigationApplication {
                 protected List<ReactPackage> getPackages() {
                     @SuppressWarnings("UnnecessaryLocalVariable")
                     List<ReactPackage> packages = new PackageList(this).getPackages();
-                    // Packages that cannot be autolinked yet can be added manually here, for example:
+                    // Packages that cannot be auto linked yet can be added manually here, for example:
                     // packages.add(new ActionSheetPackage());
                     return packages;
                 }
@@ -49,23 +44,6 @@ public class MainApplication extends NavigationApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        // Creating an extended library configuration.
-        /*
-        YandexMetricaConfig config = YandexMetricaConfig
-                .newConfigBuilder(BuildConfig.YANDEX_METRICA_KEY)
-                .withInstalledAppCollecting(true)
-                .withStatisticsSending(true)
-                .withLocationTracking(true)
-                .withCrashReporting(true)
-                .build();
-        */
-        // Initializing the SDK.
-        // YandexMetrica.activate(getApplicationContext(), config);
-        // Automatic tracking of user activity.
-        // YandexMetrica.enableActivityAutoTracking(this);
-        // Init pushes
-        // YandexMetricaPush.init(getApplicationContext());
-        // Init flipper for debug
         initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
     }
 
