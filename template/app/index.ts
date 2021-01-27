@@ -1,7 +1,7 @@
-import {Alert} from 'react-native';
 import Config from 'react-native-config';
-import {Navigation} from 'react-native-navigation';
+import {Alert} from 'react-native';
 import NetInfo from '@react-native-community/netinfo';
+import {Navigation} from 'react-native-navigation';
 
 import {registerScreens} from "./screens";
 import {startSplash} from "./navigation";
