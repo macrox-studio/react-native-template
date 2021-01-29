@@ -2,9 +2,9 @@ import React from 'react';
 import {View} from 'react-native';
 import {Screen} from '../../types';
 
-const TemplateScreen: Screen = React.memo(() => {
+const TemplateScreen: Screen = () => {
     return <View />;
-});
+};
 
 TemplateScreen.options = () => {
     return {

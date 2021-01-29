@@ -16,11 +16,11 @@ const styles = StyleSheet.create({
     },
 });
 
-const SplashScreen: Screen<{}> = React.memo(() => {
+const SplashScreen: Screen<{}> = () => {
     return (
         <View style={styles.container} />
     );
-});
+};
 
 SplashScreen.options = {
     topBar: {

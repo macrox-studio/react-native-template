@@ -1,6 +1,6 @@
 {
   "name": "macrox-studio.react-native-template",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "description": "Clean and minimalist React Native template for a quick start with TypeScript for MACROX projects",
   "scripts": {
